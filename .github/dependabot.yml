@@ -5,6 +5,9 @@ updates:
     schedule:
       interval: weekly
     groups:
+      # rubato is built on audioadapter's traits: one can't move without the other.
+      audio:
+        patterns: [rubato, "audioadapter*"]
       cargo:
         update-types: [minor, patch]
   - package-ecosystem: github-actions
