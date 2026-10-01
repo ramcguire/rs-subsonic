@@ -5,7 +5,7 @@ use std::fs::File;
 use std::path::Path;
 
 use audioadapter_buffers::direct::InterleavedSlice;
-use rubato::{Fft, FixedSync, Indexing, Resampler};
+use rubato::{Fft, FixedSync, Indexing, Resampler, WindowFunction};
 use symphonia::core::codecs::audio::{AudioDecoder, AudioDecoderOptions};
 use symphonia::core::errors::Error as SymError;
 use symphonia::core::formats::probe::Hint;
@@ -174,8 +174,16 @@ pub fn resample(samples: Vec<f32>, from: u32, to: u32) -> Result<Vec<f32>, Analy
         return Ok(samples);
     }
     let err = |e: &dyn std::fmt::Display| AnalysisError::Decode(format!("resample: {e}"));
-    let mut r = Fft::<f32>::new(from as usize, to as usize, CHUNK, 4, 1, FixedSync::Input)
-        .map_err(|e| err(&e))?;
+    let mut r = Fft::<f32>::new_custom(
+        from as usize,
+        to as usize,
+        CHUNK,
+        4,
+        1,
+        WindowFunction::BlackmanHarris2,
+        FixedSync::Input,
+    )
+    .map_err(|e| err(&e))?;
     let delay = r.output_delay();
     let expected = (r.resample_ratio() * samples.len() as f64).ceil() as usize;
     let out_max = r.output_frames_max();
