@@ -30,7 +30,7 @@ thiserror.workspace = true
 tokio = { workspace = true, features = ["sync", "time", "rt"] }
 tracing.workspace = true
 
-audioadapter-buffers = { version = "3", optional = true }
+audioadapter-buffers = { version = "5", optional = true }
 bliss-audio = { version = "0.13", default-features = false, features = ["analysis"], optional = true }
 rubato = { version = "3", features = ["fft_resampler"], optional = true }
 rustfft = { version = "6", optional = true }
