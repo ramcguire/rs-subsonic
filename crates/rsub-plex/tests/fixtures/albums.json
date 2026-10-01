@@ -1,0 +1,5 @@
+{"MediaContainer":{"size":3,"totalSize":3,"offset":0,"Metadata":[
+ {"ratingKey":"200","key":"/library/metadata/200/children","parentRatingKey":"100","guid":"plex://album/5d0","parentGuid":"plex://artist/5d07bbfd403c6402904a5ec9","type":"album","title":"Abbey Road","parentTitle":"The Beatles","studio":"Apple","year":1969,"originallyAvailableAt":"1969-09-26","thumb":"/library/metadata/200/thumb/1700000200","leafCount":2,"addedAt":1600000010,"updatedAt":1700000200,"Genre":[{"tag":"Rock"},{"tag":"Pop"}],"Format":[{"tag":"Album"}],"Guid":[{"id":"mbid://1b022e01-4da6-387b-8658-8678046e4cef"}]},
+ {"ratingKey":"201","parentRatingKey":"101","type":"album","title":"Homogenic","parentTitle":"Björk","year":"1997","addedAt":1600000011,"updatedAt":1700000201,"Format":[{"tag":"Album"}],"Subformat":[{"tag":"Remastered"}]},
+ {"ratingKey":"202","parentRatingKey":"102","type":"album","title":"Now 42","parentTitle":"Various Artists","year":1999,"addedAt":1600000012,"Format":[{"tag":"Album"}],"Subformat":[{"tag":"Compilation"}]}
+]}}

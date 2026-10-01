@@ -1,0 +1,6 @@
+---
+source: crates/rsub-api/tests/snapshots.rs
+expression: xml
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<subsonic-response xmlns="http://subsonic.org/restapi" status="ok" version="1.16.1" type="rs-subsonic" serverVersion="[version]" openSubsonic="true"><openSubsonicExtensions name="formPost"><versions>1</versions></openSubsonicExtensions><openSubsonicExtensions name="apiKeyAuthentication"><versions>1</versions></openSubsonicExtensions></subsonic-response>

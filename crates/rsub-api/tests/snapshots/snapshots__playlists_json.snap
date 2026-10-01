@@ -1,0 +1,30 @@
+---
+source: crates/rsub-api/tests/snapshots.rs
+expression: json
+---
+{
+  "subsonic-response": {
+    "openSubsonic": true,
+    "playlists": {
+      "playlist": [
+        {
+          "changed": "2024-06-02T10:00:00.000Z",
+          "comment": "summer",
+          "coverArt": "al34-0badf00d",
+          "created": "2024-06-01T10:00:00.000Z",
+          "duration": 259,
+          "id": "pl7",
+          "name": "Road trip",
+          "owner": "alice",
+          "public": false,
+          "readonly": false,
+          "songCount": 1
+        }
+      ]
+    },
+    "serverVersion": "[version]",
+    "status": "ok",
+    "type": "rs-subsonic",
+    "version": "1.16.1"
+  }
+}

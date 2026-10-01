@@ -1,0 +1,32 @@
+[package]
+name = "rsub-cli"
+description = "rs-subsonic's companion CLI: benchmark the audio analyzers, scan, push and pull analysis, administer users and backups"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+publish.workspace = true
+license.workspace = true
+
+[features]
+default = ["clap"]
+# bliss-audio is GPL-3.0-only: a binary built with this feature is GPL-3.0.
+bliss = ["rsub-analysis/bliss"]
+clap = ["rsub-analysis/clap"]
+
+[dependencies]
+rsub-analysis.workspace = true
+# rsub-analysis's engine is built on the store, which needs a database backend.
+rsub-store = { workspace = true, features = ["sqlite"] }
+rsub-core.workspace = true
+argh.workspace = true
+reqwest = { workspace = true, features = ["blocking", "json", "query"] }
+rpassword.workspace = true
+rustls.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+
+[target.'cfg(unix)'.dependencies]
+libc = "0.2"
+
+[target.'cfg(windows)'.dependencies]
+windows-sys = { version = "0.61", features = ["Win32_Foundation", "Win32_System_ProcessStatus", "Win32_System_Threading"] }

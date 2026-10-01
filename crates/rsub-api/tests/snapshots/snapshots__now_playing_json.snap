@@ -1,0 +1,77 @@
+---
+source: crates/rsub-api/tests/snapshots.rs
+expression: json
+---
+{
+  "subsonic-response": {
+    "nowPlaying": {
+      "entry": [
+        {
+          "album": "Abbey Road",
+          "albumArtists": [
+            {
+              "id": "ar12",
+              "name": "The Beatles"
+            }
+          ],
+          "albumId": "al34",
+          "artist": "The Beatles",
+          "artistId": "ar12",
+          "artists": [
+            {
+              "id": "ar12",
+              "name": "The Beatles"
+            }
+          ],
+          "bitDepth": 24,
+          "bitRate": 1015,
+          "channelCount": 2,
+          "contentType": "audio/flac",
+          "contributors": [],
+          "coverArt": "al34-0badf00d",
+          "created": "2020-09-13T12:26:40.000Z",
+          "discNumber": 1,
+          "displayAlbumArtist": "The Beatles",
+          "displayArtist": "The Beatles",
+          "duration": 259,
+          "genre": "Rock",
+          "genres": [
+            {
+              "name": "Rock"
+            }
+          ],
+          "id": "tr56",
+          "isDir": false,
+          "isVideo": false,
+          "mediaType": "song",
+          "minutesAgo": 2,
+          "moods": [
+            "Groovy"
+          ],
+          "parent": "al34",
+          "path": "The Beatles/Abbey Road/01 - Come Together.flac",
+          "playerId": 1,
+          "playerName": "Feishin",
+          "replayGain": {
+            "albumGain": -8.9,
+            "trackGain": -9.36
+          },
+          "samplingRate": 96000,
+          "size": 32985721,
+          "sortName": "come together",
+          "suffix": "flac",
+          "title": "Come Together",
+          "track": 1,
+          "type": "music",
+          "username": "alice",
+          "year": 1969
+        }
+      ]
+    },
+    "openSubsonic": true,
+    "serverVersion": "[version]",
+    "status": "ok",
+    "type": "rs-subsonic",
+    "version": "1.16.1"
+  }
+}

@@ -1,0 +1,18 @@
+---
+source: crates/rsub-api/tests/snapshots.rs
+expression: json
+---
+{
+  "subsonic-response": {
+    "lyrics": {
+      "artist": "A",
+      "title": "Song",
+      "value": "One\nTwo"
+    },
+    "openSubsonic": true,
+    "serverVersion": "[version]",
+    "status": "ok",
+    "type": "rs-subsonic",
+    "version": "1.16.1"
+  }
+}

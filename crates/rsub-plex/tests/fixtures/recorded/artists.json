@@ -1,0 +1,106 @@
+{
+ "MediaContainer": {
+  "size": 2,
+  "totalSize": 2,
+  "offset": 0,
+  "allowSync": true,
+  "art": "/:/resources/artist-fanart.jpg",
+  "identifier": "com.plexapp.plugins.library",
+  "librarySectionID": 6,
+  "librarySectionTitle": "Music",
+  "mediaTagPrefix": "/system/bundle/media/flags/",
+  "mediaTagVersion": 1789148224,
+  "nocache": true,
+  "thumb": "/:/resources/artist.png",
+  "title1": "Music",
+  "title2": "All Artists",
+  "viewGroup": "artist",
+  "viewMode": 65592,
+  "Metadata": [
+   {
+    "ratingKey": "23428",
+    "key": "/library/metadata/23428/children",
+    "guid": "plex://artist/5d07bea5403c6402906bb3bf",
+    "type": "artist",
+    "title": "Bob Moses",
+    "titleSort": "Bob Moses & ZHU",
+    "summary": "(summary removed)",
+    "index": 1,
+    "thumb": "/library/metadata/23428/thumb/1790440237",
+    "addedAt": 1790440235,
+    "updatedAt": 1790440237,
+    "Image": [
+     {
+      "alt": "Bob Moses",
+      "type": "coverPoster",
+      "url": "/library/metadata/23428/thumb/1790440237"
+     }
+    ],
+    "UltraBlurColors": {
+     "topLeft": "212121",
+     "topRight": "303030",
+     "bottomRight": "356e10",
+     "bottomLeft": "131314"
+    },
+    "Guid": [
+     {
+      "id": "mbid://7ce3d484-d681-437c-8d33-913261d0ad51"
+     }
+    ],
+    "Genre": [
+     {
+      "tag": "Pop/Rock"
+     },
+     {
+      "tag": "Electronic"
+     }
+    ],
+    "Country": [
+     {
+      "tag": "Canada"
+     }
+    ]
+   },
+   {
+    "ratingKey": "23329",
+    "key": "/library/metadata/23329/children",
+    "guid": "plex://artist/5d07be62403c640290689b51",
+    "type": "artist",
+    "title": "ZHU",
+    "summary": "(summary removed)",
+    "index": 1,
+    "thumb": "/library/metadata/23329/thumb/1789795262",
+    "addedAt": 1790440204,
+    "updatedAt": 1789795262,
+    "Image": [
+     {
+      "alt": "ZHU",
+      "type": "coverPoster",
+      "url": "/library/metadata/23329/thumb/1789795262"
+     }
+    ],
+    "UltraBlurColors": {
+     "topLeft": "540333",
+     "topRight": "30042e",
+     "bottomRight": "170306",
+     "bottomLeft": "720312"
+    },
+    "Guid": [
+     {
+      "id": "mbid://eca0569c-877e-4d72-a280-90581c2adfd5"
+     }
+    ],
+    "Genre": [
+     {
+      "tag": "Electronic"
+     }
+    ],
+    "Country": [
+     {
+      "tag": "United States of America"
+     }
+    ]
+   }
+  ]
+ }
+}

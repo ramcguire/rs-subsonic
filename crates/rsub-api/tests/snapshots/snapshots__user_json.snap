@@ -1,0 +1,34 @@
+---
+source: crates/rsub-api/tests/snapshots.rs
+expression: json
+---
+{
+  "subsonic-response": {
+    "openSubsonic": true,
+    "serverVersion": "[version]",
+    "status": "ok",
+    "type": "rs-subsonic",
+    "user": {
+      "adminRole": true,
+      "commentRole": false,
+      "coverArtRole": false,
+      "downloadRole": false,
+      "email": "alice@example.com",
+      "folder": [
+        1,
+        2
+      ],
+      "jukeboxRole": false,
+      "playlistRole": true,
+      "podcastRole": false,
+      "scrobblingEnabled": true,
+      "settingsRole": false,
+      "shareRole": false,
+      "streamRole": true,
+      "uploadRole": false,
+      "username": "alice",
+      "videoConversionRole": false
+    },
+    "version": "1.16.1"
+  }
+}

@@ -1,0 +1,47 @@
+[package]
+name = "rsub-analysis"
+description = "Audio analysis for sonic similarity in rs-subsonic"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+publish.workspace = true
+license.workspace = true
+
+[features]
+# Decode local files to mono PCM; both analyzers need it.
+decode = ["dep:symphonia", "dep:rubato", "dep:audioadapter-buffers"]
+# bliss-rs features (tempo, timbre, loudness, chroma). bliss-audio is
+# GPL-3.0-only: a binary built with this feature is GPL-3.0.
+bliss = ["decode", "dep:bliss-audio"]
+# CLAP audio embeddings (laion/clap-htsat-unfused exported to ONNX), run with
+# tract in pure Rust. The model file is configured, not bundled.
+clap = ["decode", "dep:tract-onnx", "dep:rustfft", "dep:sha2"]
+# Run tests against Postgres too (with RSUB_TEST_PG_URL).
+postgres = ["rsub-store/postgres"]
+
+[dependencies]
+rsub-media.workspace = true
+rsub-store.workspace = true
+base64.workspace = true
+futures-util.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+thiserror.workspace = true
+tokio = { workspace = true, features = ["sync", "time", "rt"] }
+tracing.workspace = true
+
+audioadapter-buffers = { version = "3", optional = true }
+bliss-audio = { version = "0.13", default-features = false, features = ["analysis"], optional = true }
+rubato = { version = "3", features = ["fft_resampler"], optional = true }
+rustfft = { version = "6", optional = true }
+sha2 = { workspace = true, optional = true }
+symphonia = { version = "0.6", default-features = false, features = ["all", "opt-simd"], optional = true }
+tract-onnx = { version = "0.23", optional = true }
+
+[dev-dependencies]
+rsub-core.workspace = true
+rsub-store = { workspace = true, features = ["sqlite"] }
+rsub-sync.workspace = true
+rsub-testkit.workspace = true
+tokio = { workspace = true, features = ["rt", "macros"] }
+

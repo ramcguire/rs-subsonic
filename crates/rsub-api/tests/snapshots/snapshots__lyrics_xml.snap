@@ -1,0 +1,7 @@
+---
+source: crates/rsub-api/tests/snapshots.rs
+expression: xml
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<subsonic-response xmlns="http://subsonic.org/restapi" status="ok" version="1.16.1" type="rs-subsonic" serverVersion="[version]" openSubsonic="true"><lyrics artist="A" title="Song">One
+Two</lyrics></subsonic-response>

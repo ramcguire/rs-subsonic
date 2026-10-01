@@ -1,0 +1,4 @@
+{"MediaContainer":{"size":2,"allowSync":false,"title1":"Plex Library","Directory":[
+ {"allowSync":true,"art":"/:/resources/artist-fanart.jpg","key":"3","type":"artist","title":"Music","agent":"tv.plex.agents.music","scanner":"Plex Music","language":"en-US","uuid":"0f1c","updatedAt":1700000000,"createdAt":1600000000,"contentChangedAt":412193,"refreshing":"1","Location":[{"id":4,"path":"/data/music"}]},
+ {"allowSync":true,"key":"1","type":"movie","title":"Movies","Location":[{"id":1,"path":"/data/movies"}]}
+]}}

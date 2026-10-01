@@ -1,0 +1,4 @@
+{"MediaContainer":{"size":2,"totalSize":2,"offset":0,"librarySectionID":3,"Metadata":[
+ {"ratingKey":"100","key":"/library/metadata/100/children","guid":"plex://artist/5d07bbfd403c6402904a5ec9","type":"artist","title":"The Beatles","titleSort":"Beatles","summary":"Liverpool band.","index":1,"thumb":"/library/metadata/100/thumb/1700000100","addedAt":1600000000,"updatedAt":1700000100,"Genre":[{"tag":"Rock"}],"Guid":[{"id":"mbid://b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d"}]},
+ {"ratingKey":"101","key":"/library/metadata/101/children","guid":"plex://artist/5d07bbfd403c6402904a5eca","type":"artist","title":"Björk","addedAt":1600000001,"updatedAt":1700000101}
+]}}

@@ -1,0 +1,14 @@
+/target
+/data
+/rs-subsonic.toml
+/subwave
+/scripts
+/.config
+/.ropeproject
+/.claude/settings.local.json
+*.pending-snap
+*.log
+/TODO.md
+/CONTEXT.md
+/CHANGELOG.md
+/docs

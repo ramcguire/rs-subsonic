@@ -1,0 +1,88 @@
+---
+source: crates/rsub-api/tests/snapshots.rs
+expression: json
+---
+{
+  "subsonic-response": {
+    "openSubsonic": true,
+    "playlist": {
+      "changed": "2024-06-02T10:00:00.000Z",
+      "comment": "summer",
+      "coverArt": "al34-0badf00d",
+      "created": "2024-06-01T10:00:00.000Z",
+      "duration": 259,
+      "entry": [
+        {
+          "album": "Abbey Road",
+          "albumArtists": [
+            {
+              "id": "ar12",
+              "name": "The Beatles"
+            }
+          ],
+          "albumId": "al34",
+          "artist": "The Beatles",
+          "artistId": "ar12",
+          "artists": [
+            {
+              "id": "ar12",
+              "name": "The Beatles"
+            }
+          ],
+          "bitDepth": 24,
+          "bitRate": 1015,
+          "channelCount": 2,
+          "contentType": "audio/flac",
+          "contributors": [],
+          "coverArt": "al34-0badf00d",
+          "created": "2020-09-13T12:26:40.000Z",
+          "discNumber": 1,
+          "displayAlbumArtist": "The Beatles",
+          "displayArtist": "The Beatles",
+          "duration": 259,
+          "genre": "Rock",
+          "genres": [
+            {
+              "name": "Rock"
+            }
+          ],
+          "id": "tr56",
+          "isDir": false,
+          "isVideo": false,
+          "mediaType": "song",
+          "moods": [
+            "Groovy"
+          ],
+          "parent": "al34",
+          "path": "The Beatles/Abbey Road/01 - Come Together.flac",
+          "playCount": 12,
+          "played": "2024-06-02T10:00:00.000Z",
+          "replayGain": {
+            "albumGain": -8.9,
+            "trackGain": -9.36
+          },
+          "samplingRate": 96000,
+          "size": 32985721,
+          "sortName": "come together",
+          "starred": "2024-06-01T10:00:00.000Z",
+          "suffix": "flac",
+          "title": "Come Together",
+          "track": 1,
+          "type": "music",
+          "userRating": 4,
+          "year": 1969
+        }
+      ],
+      "id": "pl7",
+      "name": "Road trip",
+      "owner": "alice",
+      "public": false,
+      "readonly": false,
+      "songCount": 1
+    },
+    "serverVersion": "[version]",
+    "status": "ok",
+    "type": "rs-subsonic",
+    "version": "1.16.1"
+  }
+}

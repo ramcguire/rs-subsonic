@@ -1,0 +1,53 @@
+[server]
+listen = "0.0.0.0:4533"
+data_dir = "./data"       # also holds identity.jsonl and secret.key: back them up
+worker_threads = 0        # 0 = one per CPU
+log = "info"              # RUST_LOG takes precedence
+ignored_articles = "The El La Los Las Le Les"   # ignored when sorting and indexing
+
+[database]
+# Default: sqlite://<data_dir>/rsub.db
+# url = "postgres://rsub:secret@localhost/rsub"   # needs the `postgres` feature
+max_connections = 4
+
+[auth]
+allow_plaintext = true    # u + p (plain or enc:)
+allow_token_auth = true   # u + t + s
+# The server key encrypts stored passwords. RSUB_SECRET_KEY (64 hex chars) takes precedence.
+# secret_key_file = "./data/secret.key"
+
+[cache]
+covers_max = "500MB"      # cover-art disk cache; "0" disables it
+
+# One table per backend. The catalog is keyed on `id`: don't rename it casually.
+[[backend]]
+id = "home"
+kind = "plex"
+url = "http://127.0.0.1:32400"
+# The token is read from this environment variable (default PLEX_TOKEN).
+token_env = "PLEX_TOKEN"
+libraries = []            # library names or keys to mirror; empty = all music libraries
+page_size = 500           # catalog items per Plex request
+
+  [backend.sync]
+  full_interval = "24h"   # s, m, h or d
+  check_interval = "5m"   # how often to ask Plex whether a library changed, then sync
+                          # just the changes (new music shows up within about this); "0" = off
+  enrich = true           # fetch replay gain, bit depth, moods, lyrics flag
+
+  # [[backend.path_map]]
+  # remote = "/data/music"
+  # local = "/mnt/music"
+
+  [backend.local]
+  serve_files = true      # only has an effect with a path_map
+  read_tags = true        # likewise; cached, so only changed files are re-read
+
+# [analysis]
+# enabled = true
+# analyzer = "clap"       # default: the one built in (clap if both)
+# threads = 0             # files at once, one core each; 0 = half the CPUs
+# interval = "1h"         # also runs after every sync
+# clap_model = "./data/clap_audio.onnx"
+# clap_crops = 4          # 1-4; fewer is faster, a little less accurate
+# bliss_seconds = 0       # analyse only this much of each track's middle; 0 = all

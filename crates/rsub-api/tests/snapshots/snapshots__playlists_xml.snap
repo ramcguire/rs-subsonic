@@ -1,0 +1,6 @@
+---
+source: crates/rsub-api/tests/snapshots.rs
+expression: xml
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<subsonic-response xmlns="http://subsonic.org/restapi" status="ok" version="1.16.1" type="rs-subsonic" serverVersion="[version]" openSubsonic="true"><playlists><playlist id="pl7" name="Road trip" comment="summer" owner="alice" public="false" songCount="1" duration="259" created="2024-06-01T10:00:00.000Z" changed="2024-06-02T10:00:00.000Z" coverArt="al34-0badf00d" readonly="false"/></playlists></subsonic-response>

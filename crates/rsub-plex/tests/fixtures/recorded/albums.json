@@ -1,0 +1,141 @@
+{
+ "MediaContainer": {
+  "size": 3,
+  "totalSize": 56,
+  "offset": 0,
+  "allowSync": true,
+  "art": "/:/resources/artist-fanart.jpg",
+  "identifier": "com.plexapp.plugins.library",
+  "librarySectionID": 6,
+  "librarySectionTitle": "Music",
+  "mediaTagPrefix": "/system/bundle/media/flags/",
+  "mediaTagVersion": 1789148224,
+  "nocache": true,
+  "thumb": "/:/resources/artist.png",
+  "title1": "Music",
+  "title2": "All Artists",
+  "viewGroup": "artist",
+  "viewMode": 65592,
+  "Metadata": [
+   {
+    "ratingKey": "23502",
+    "key": "/library/metadata/23502/children",
+    "parentRatingKey": "23329",
+    "guid": "plex://album/699c997ca034456b4b715490",
+    "parentGuid": "plex://artist/5d07be62403c640290689b51",
+    "studio": "broke",
+    "type": "album",
+    "title": "3AM IN ???????",
+    "parentKey": "/library/metadata/23329",
+    "parentTitle": "ZHU",
+    "summary": "",
+    "index": 1,
+    "year": 2025,
+    "thumb": "/library/metadata/23502/thumb/1790440266",
+    "parentThumb": "/library/metadata/23329/thumb/1789795262",
+    "originallyAvailableAt": "2025-08-22",
+    "addedAt": 1790440265,
+    "updatedAt": 1790440266,
+    "Image": [
+     {
+      "alt": "3AM IN ???????",
+      "type": "coverPoster",
+      "url": "/library/metadata/23502/thumb/1790440266"
+     }
+    ],
+    "UltraBlurColors": {
+     "topLeft": "570e10",
+     "topRight": "a03229",
+     "bottomRight": "350c11",
+     "bottomLeft": "1e040b"
+    },
+    "Guid": [
+     {
+      "id": "mbid://d72a74ab-4e82-448b-8df2-9062b6f19a9e"
+     }
+    ]
+   },
+   {
+    "ratingKey": "23579",
+    "key": "/library/metadata/23579/children",
+    "parentRatingKey": "23329",
+    "guid": "plex://album/5d07c99a403c640290ca4fa9",
+    "parentGuid": "plex://artist/5d07be62403c640290689b51",
+    "studio": "Columbia",
+    "type": "album",
+    "title": "As Crazy As It Is",
+    "parentKey": "/library/metadata/23329",
+    "parentTitle": "ZHU",
+    "summary": "",
+    "index": 1,
+    "year": 2015,
+    "thumb": "/library/metadata/23579/thumb/1790440279",
+    "parentThumb": "/library/metadata/23329/thumb/1789795262",
+    "originallyAvailableAt": "2015-09-25",
+    "addedAt": 1790440278,
+    "updatedAt": 1790440279,
+    "Image": [
+     {
+      "alt": "As Crazy As It Is",
+      "type": "coverPoster",
+      "url": "/library/metadata/23579/thumb/1790440279"
+     }
+    ],
+    "UltraBlurColors": {
+     "topLeft": "370374",
+     "topRight": "430403",
+     "bottomRight": "3f0384",
+     "bottomLeft": "430403"
+    },
+    "Guid": [
+     {
+      "id": "mbid://951d19f5-7c6c-4af5-a8aa-832996dee3a5"
+     }
+    ]
+   },
+   {
+    "ratingKey": "23334",
+    "key": "/library/metadata/23334/children",
+    "parentRatingKey": "23329",
+    "guid": "plex://album/5d07c9a4403c640290caafc0",
+    "parentGuid": "plex://artist/5d07be62403c640290689b51",
+    "studio": "Columbia",
+    "type": "album",
+    "title": "Automatic (Remixes)",
+    "parentKey": "/library/metadata/23329",
+    "parentTitle": "ZHU",
+    "summary": "",
+    "index": 1,
+    "year": 2015,
+    "thumb": "/library/metadata/23334/thumb/1790440209",
+    "parentThumb": "/library/metadata/23329/thumb/1789795262",
+    "originallyAvailableAt": "2015-09-15",
+    "addedAt": 1790440207,
+    "updatedAt": 1790440209,
+    "Image": [
+     {
+      "alt": "Automatic (Remixes)",
+      "type": "coverPoster",
+      "url": "/library/metadata/23334/thumb/1790440209"
+     }
+    ],
+    "UltraBlurColors": {
+     "topLeft": "370374",
+     "topRight": "430403",
+     "bottomRight": "3f0384",
+     "bottomLeft": "430403"
+    },
+    "Guid": [
+     {
+      "id": "mbid://5bccbd05-f401-4101-87a3-25c1f42ba97a"
+     }
+    ],
+    "Genre": [
+     {
+      "tag": "Electronic"
+     }
+    ]
+   }
+  ]
+ }
+}

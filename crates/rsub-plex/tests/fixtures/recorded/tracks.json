@@ -1,0 +1,252 @@
+{
+ "MediaContainer": {
+  "size": 4,
+  "totalSize": 4,
+  "offset": 0,
+  "allowSync": true,
+  "art": "/:/resources/artist-fanart.jpg",
+  "identifier": "com.plexapp.plugins.library",
+  "librarySectionID": 6,
+  "librarySectionTitle": "Music",
+  "mediaTagPrefix": "/system/bundle/media/flags/",
+  "mediaTagVersion": 1789148224,
+  "nocache": true,
+  "thumb": "/:/resources/artist.png",
+  "title1": "Music",
+  "title2": "All Artists",
+  "viewGroup": "artist",
+  "viewMode": 65592,
+  "Metadata": [
+   {
+    "ratingKey": "23580",
+    "key": "/library/metadata/23580",
+    "parentRatingKey": "23579",
+    "grandparentRatingKey": "23329",
+    "guid": "plex://track/5d07f005403c64029005f388",
+    "parentGuid": "plex://album/5d07c99a403c640290ca4fa9",
+    "grandparentGuid": "plex://artist/5d07be62403c640290689b51",
+    "parentStudio": "Columbia",
+    "type": "track",
+    "title": "As Crazy As It Is",
+    "grandparentKey": "/library/metadata/23329",
+    "parentKey": "/library/metadata/23579",
+    "grandparentTitle": "ZHU",
+    "parentTitle": "As Crazy As It Is",
+    "originalTitle": "ZHU x A‐Trak x Keznamdi",
+    "summary": "",
+    "index": 1,
+    "parentIndex": 1,
+    "ratingCount": 29843,
+    "parentYear": 2015,
+    "thumb": "/library/metadata/23579/thumb/1790440279",
+    "parentThumb": "/library/metadata/23579/thumb/1790440279",
+    "grandparentThumb": "/library/metadata/23329/thumb/1789795262",
+    "duration": 224347,
+    "addedAt": 1789897172,
+    "updatedAt": 1790440279,
+    "Media": [
+     {
+      "id": 22156,
+      "duration": 224347,
+      "audioChannels": 2,
+      "audioCodec": "flac",
+      "container": "flac",
+      "Part": [
+       {
+        "id": 22156,
+        "key": "/library/parts/22156/1789897172/file.flac",
+        "duration": 224347,
+        "file": "/music/ZHU/As Crazy As It Is/ZHU_As Crazy As It Is_01_As Crazy As It Is.flac",
+        "size": 25112440,
+        "container": "flac",
+        "hasThumbnail": "1"
+       }
+      ]
+     }
+    ],
+    "Image": [
+     {
+      "alt": "As Crazy As It Is",
+      "type": "coverPoster",
+      "url": "/library/metadata/23329/thumb/1789795262"
+     }
+    ],
+    "Guid": [
+     {
+      "id": "mbid://c0a73226-fb16-4413-aa6b-20eb25eca9f8"
+     }
+    ]
+   },
+   {
+    "ratingKey": "23335",
+    "key": "/library/metadata/23335",
+    "parentRatingKey": "23334",
+    "grandparentRatingKey": "23329",
+    "guid": "plex://track/5d07fec5403c640290c0eef8",
+    "parentGuid": "plex://album/5d07c9a4403c640290caafc0",
+    "grandparentGuid": "plex://artist/5d07be62403c640290689b51",
+    "parentStudio": "Columbia",
+    "type": "track",
+    "title": "Automatic (Vindata remix)",
+    "grandparentKey": "/library/metadata/23329",
+    "parentKey": "/library/metadata/23334",
+    "grandparentTitle": "ZHU",
+    "parentTitle": "Automatic (Remixes)",
+    "originalTitle": "ZHU × AlunaGeorge",
+    "summary": "",
+    "index": 1,
+    "parentIndex": 1,
+    "ratingCount": 534,
+    "parentYear": 2015,
+    "thumb": "/library/metadata/23334/thumb/1790440209",
+    "parentThumb": "/library/metadata/23334/thumb/1790440209",
+    "grandparentThumb": "/library/metadata/23329/thumb/1789795262",
+    "duration": 212880,
+    "addedAt": 1790266202,
+    "updatedAt": 1790440209,
+    "Media": [
+     {
+      "id": 21968,
+      "duration": 212880,
+      "audioChannels": 2,
+      "audioCodec": "flac",
+      "container": "flac",
+      "Part": [
+       {
+        "id": 21968,
+        "key": "/library/parts/21968/1790266202/file.flac",
+        "duration": 212880,
+        "file": "/music/ZHU/Automatic/ZHU_Automatic_01_Automatic (Vindata remix).flac",
+        "size": 27733203,
+        "container": "flac",
+        "hasThumbnail": "1"
+       }
+      ]
+     }
+    ],
+    "Image": [
+     {
+      "alt": "Automatic (Vindata remix)",
+      "type": "coverPoster",
+      "url": "/library/metadata/23329/thumb/1789795262"
+     }
+    ],
+    "Guid": [
+     {
+      "id": "mbid://fdf7a2cd-2a07-4d29-9f04-eb259015af83"
+     }
+    ]
+   },
+   {
+    "ratingKey": "23503",
+    "key": "/library/metadata/23503",
+    "parentRatingKey": "23502",
+    "grandparentRatingKey": "23329",
+    "guid": "plex://track/699c99b9a034456b4b716849",
+    "parentGuid": "plex://album/699c997ca034456b4b715490",
+    "grandparentGuid": "plex://artist/5d07be62403c640290689b51",
+    "parentStudio": "broke",
+    "type": "track",
+    "title": "3AM IN ???????",
+    "grandparentKey": "/library/metadata/23329",
+    "parentKey": "/library/metadata/23502",
+    "grandparentTitle": "ZHU",
+    "parentTitle": "3AM IN ???????",
+    "summary": "",
+    "index": 1,
+    "parentIndex": 1,
+    "parentYear": 2025,
+    "thumb": "/library/metadata/23502/thumb/1790440266",
+    "parentThumb": "/library/metadata/23502/thumb/1790440266",
+    "grandparentThumb": "/library/metadata/23329/thumb/1789795262",
+    "duration": 204260,
+    "addedAt": 1790046816,
+    "updatedAt": 1790440266,
+    "Media": [
+     {
+      "id": 22090,
+      "duration": 204260,
+      "audioChannels": 2,
+      "audioCodec": "flac",
+      "container": "flac",
+      "Part": [
+       {
+        "id": 22090,
+        "key": "/library/parts/22090/1790046816/file.flac",
+        "duration": 204260,
+        "file": "/music/ZHU/3AM IN !!!!!!!/ZHU_3AM IN !!!!!!!_01_3AM IN.flac",
+        "size": 20643181,
+        "container": "flac",
+        "hasThumbnail": "1"
+       }
+      ]
+     }
+    ],
+    "Image": [
+     {
+      "alt": "3AM IN ???????",
+      "type": "coverPoster",
+      "url": "/library/metadata/23329/thumb/1789795262"
+     }
+    ],
+    "Guid": [
+     {
+      "id": "mbid://642edf84-591f-450c-9d76-f76f484df8f9"
+     }
+    ]
+   },
+   {
+    "ratingKey": "23511",
+    "key": "/library/metadata/23511",
+    "parentRatingKey": "23510",
+    "grandparentRatingKey": "23329",
+    "guid": "local://23511",
+    "parentGuid": "plex://album/69de5a2e266c91b74d384e20",
+    "grandparentGuid": "plex://artist/5d07be62403c640290689b51",
+    "parentStudio": "BROKE / BLACKLIZT SOUND SYNDICATE",
+    "type": "track",
+    "title": "BLACK MIDAS",
+    "grandparentKey": "/library/metadata/23329",
+    "parentKey": "/library/metadata/23510",
+    "grandparentTitle": "ZHU",
+    "parentTitle": "Black Midas",
+    "summary": "",
+    "index": 1,
+    "parentIndex": 1,
+    "parentYear": 2026,
+    "thumb": "/library/metadata/23510/thumb/1790440271",
+    "parentThumb": "/library/metadata/23510/thumb/1790440271",
+    "grandparentThumb": "/library/metadata/23329/thumb/1789795262",
+    "duration": 244715,
+    "addedAt": 1789901502,
+    "Media": [
+     {
+      "id": 22095,
+      "duration": 244715,
+      "audioChannels": 2,
+      "audioCodec": "flac",
+      "container": "flac",
+      "Part": [
+       {
+        "id": 22095,
+        "key": "/library/parts/22095/1789901502/file.flac",
+        "duration": 244715,
+        "file": "/music/ZHU/BLACK MIDAS/ZHU_BLACK MIDAS_01_BLACK MIDAS.flac",
+        "size": 27109691,
+        "container": "flac",
+        "hasThumbnail": "1"
+       }
+      ]
+     }
+    ],
+    "Image": [
+     {
+      "alt": "BLACK MIDAS",
+      "type": "coverPoster",
+      "url": "/library/metadata/23329/thumb/1789795262"
+     }
+    ]
+   }
+  ]
+ }
+}

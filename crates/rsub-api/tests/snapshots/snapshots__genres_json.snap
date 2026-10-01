@@ -1,0 +1,27 @@
+---
+source: crates/rsub-api/tests/snapshots.rs
+expression: json
+---
+{
+  "subsonic-response": {
+    "genres": {
+      "genre": [
+        {
+          "albumCount": 2,
+          "songCount": 3,
+          "value": "Rock & Roll"
+        },
+        {
+          "albumCount": 1,
+          "songCount": 1,
+          "value": "Pop"
+        }
+      ]
+    },
+    "openSubsonic": true,
+    "serverVersion": "[version]",
+    "status": "ok",
+    "type": "rs-subsonic",
+    "version": "1.16.1"
+  }
+}

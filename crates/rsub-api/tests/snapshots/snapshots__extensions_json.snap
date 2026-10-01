@@ -1,0 +1,27 @@
+---
+source: crates/rsub-api/tests/snapshots.rs
+expression: json
+---
+{
+  "subsonic-response": {
+    "openSubsonic": true,
+    "openSubsonicExtensions": [
+      {
+        "name": "formPost",
+        "versions": [
+          1
+        ]
+      },
+      {
+        "name": "apiKeyAuthentication",
+        "versions": [
+          1
+        ]
+      }
+    ],
+    "serverVersion": "[version]",
+    "status": "ok",
+    "type": "rs-subsonic",
+    "version": "1.16.1"
+  }
+}

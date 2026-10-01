@@ -1,0 +1,25 @@
+[package]
+name = "rsub-media"
+description = "Local file serving, path mapping and cover cache for rs-subsonic"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+publish.workspace = true
+license.workspace = true
+
+[features]
+local-tags = ["dep:lofty", "dep:async-trait"]
+
+[dependencies]
+rsub-core.workspace = true
+async-trait = { workspace = true, optional = true }
+lofty = { workspace = true, optional = true }
+bytes.workspace = true
+futures-util.workspace = true
+httpdate = "1"
+tokio = { workspace = true, features = ["fs", "io-util", "sync", "rt"] }
+tokio-util.workspace = true
+tracing.workspace = true
+
+[dev-dependencies]
+tokio = { workspace = true, features = ["macros", "time"] }

@@ -1,0 +1,6 @@
+---
+source: crates/rsub-api/tests/snapshots.rs
+expression: xml
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<subsonic-response xmlns="http://subsonic.org/restapi" status="ok" version="1.16.1" type="rs-subsonic" serverVersion="[version]" openSubsonic="true"><indexes lastModified="1700000000000" ignoredArticles="The El La"><index name="B"><artist id="ar12" name="The Beatles" coverArt="ar12-00c0ffee" albumCount="2"/></index></indexes></subsonic-response>

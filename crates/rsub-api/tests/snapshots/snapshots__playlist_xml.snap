@@ -1,0 +1,6 @@
+---
+source: crates/rsub-api/tests/snapshots.rs
+expression: xml
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<subsonic-response xmlns="http://subsonic.org/restapi" status="ok" version="1.16.1" type="rs-subsonic" serverVersion="[version]" openSubsonic="true"><playlist id="pl7" name="Road trip" comment="summer" owner="alice" public="false" songCount="1" duration="259" created="2024-06-01T10:00:00.000Z" changed="2024-06-02T10:00:00.000Z" coverArt="al34-0badf00d" readonly="false"><entry id="tr56" parent="al34" isDir="false" title="Come Together" album="Abbey Road" artist="The Beatles" track="1" year="1969" genre="Rock" coverArt="al34-0badf00d" size="32985721" contentType="audio/flac" suffix="flac" duration="259" bitRate="1015" path="The Beatles/Abbey Road/01 - Come Together.flac" isVideo="false" userRating="4" playCount="12" discNumber="1" created="2020-09-13T12:26:40.000Z" starred="2024-06-01T10:00:00.000Z" albumId="al34" artistId="ar12" type="music" mediaType="song" played="2024-06-02T10:00:00.000Z" sortName="come together" displayArtist="The Beatles" displayAlbumArtist="The Beatles" bitDepth="24" samplingRate="96000" channelCount="2"><genres name="Rock"/><artists id="ar12" name="The Beatles"/><albumArtists id="ar12" name="The Beatles"/><moods>Groovy</moods><replayGain trackGain="-9.36" albumGain="-8.9"/></entry></playlist></subsonic-response>

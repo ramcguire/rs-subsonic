@@ -1,0 +1,36 @@
+{
+ "MediaContainer": {
+  "size": 1,
+  "totalSize": 4,
+  "offset": 0,
+  "allowSync": false,
+  "title1": "Plex Library",
+  "Directory": [
+   {
+    "allowSync": true,
+    "filters": true,
+    "refreshing": false,
+    "key": "6",
+    "type": "artist",
+    "title": "Music",
+    "agent": "tv.plex.agents.music",
+    "scanner": "Plex Music",
+    "language": "en-US",
+    "metadataAgentProviderGroupId": 3,
+    "updatedAt": 1790435219,
+    "createdAt": 1790435219,
+    "scannedAt": 1790441658,
+    "content": true,
+    "directory": true,
+    "contentChangedAt": 405672,
+    "hidden": 0,
+    "Location": [
+     {
+      "id": 8,
+      "path": "/music"
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,6 @@
+{"MediaContainer":{"size":1,"Lyrics":[{"provider":"com.plexapp.agents.lyricfind","minLines":3,"timed":true,"author":"A Writer","by":"Lyrics © A Publisher",
+  "Line":[
+    {"startOffset":1500,"endOffset":4520,"Span":[{"text":"First line","startOffset":1500,"endOffset":4520}]},
+    {"startOffset":4520,"endOffset":8330,"Span":[{"text":"Second line","startOffset":4520,"endOffset":8330}]},
+    {"startOffset":16900,"endOffset":17000}
+  ]}]}}

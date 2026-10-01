@@ -1,0 +1,11 @@
+/target
+/data
+/subwave
+/scripts
+/rs-subsonic.toml
+/.claude
+/.config
+/.github
+/.ropeproject
+*.log
+.git

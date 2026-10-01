@@ -1,0 +1,6 @@
+---
+source: crates/rsub-api/tests/snapshots.rs
+expression: xml
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<subsonic-response xmlns="http://subsonic.org/restapi" status="ok" version="1.16.1" type="rs-subsonic" serverVersion="[version]" openSubsonic="true"><user username="alice" email="alice@example.com" scrobblingEnabled="true" adminRole="true" settingsRole="false" downloadRole="false" uploadRole="false" playlistRole="true" coverArtRole="false" commentRole="false" podcastRole="false" streamRole="true" jukeboxRole="false" shareRole="false" videoConversionRole="false"><folder>1</folder><folder>2</folder></user></subsonic-response>

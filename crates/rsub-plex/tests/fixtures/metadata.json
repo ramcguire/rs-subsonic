@@ -1,0 +1,6 @@
+{"MediaContainer":{"size":2,"Metadata":[
+ {"ratingKey":"300","type":"track","title":"Come Together","Mood":[{"tag":"Groovy"}],"Media":[{"Part":[{"key":"/library/parts/500/1600000020/file.flac","Stream":[
+  {"id":600,"streamType":2,"codec":"flac","channels":2,"bitDepth":24,"samplingRate":96000,"gain":-9.36,"albumGain":-8.9,"peak":0.999969,"albumPeak":1.0,"loudness":-13.4},
+  {"id":601,"streamType":4,"codec":"lrc","key":"/library/streams/601","format":"lrc","provider":"com.plexapp.agents.lyricfind"}]}]}]},
+ {"ratingKey":"301","type":"track","title":"Something","Media":[{"Part":[{"Stream":[{"streamType":2,"codec":"mp3","samplingRate":"44100"}]}]}]}
+]}}

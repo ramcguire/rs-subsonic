@@ -1,0 +1,16 @@
+---
+source: crates/rsub-api/tests/snapshots.rs
+expression: json
+---
+{
+  "subsonic-response": {
+    "openSubsonic": true,
+    "serverVersion": "[version]",
+    "status": "ok",
+    "tokenInfo": {
+      "username": "alice"
+    },
+    "type": "rs-subsonic",
+    "version": "1.16.1"
+  }
+}
