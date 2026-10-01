@@ -2068,7 +2068,7 @@ name = "rsub-analysis"
 version = "0.1.0-rc.0"
 dependencies = [
  "audioadapter-buffers",
- "base64 0.22.1",
+ "base64 0.23.1",
  "bliss-audio",
  "futures-util",
  "rsub-core",
