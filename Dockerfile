@@ -4,7 +4,7 @@
 
 # Dependencies are built from cargo-chef's recipe in their own layer, so a
 # change to rs-subsonic's code rebuilds only rs-subsonic.
-FROM lukemathwalker/cargo-chef:latest-rust-1.98-slim-trixie AS chef
+FROM lukemathwalker/cargo-chef:latest-rust-1.99-slim-trixie AS chef
 WORKDIR /src
 
 FROM chef AS plan
